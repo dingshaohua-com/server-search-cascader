@@ -107,3 +107,4 @@ app.vue
 
 ## 效果(preview)
 ![preview](https://github.com/dshvv/server-search-cascader/blob/main/preview.gif)
+https://dshvv.github.io/server-search-cascader

@@ -3,7 +3,7 @@
   "version": "0.1.5",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --dest docs",
     "lib": "vue-cli-service build --target lib --name server-search-cascader --dest lib packages/index.js"
   },
   "main":"./lib/server-search-cascader.umd.min.js",
