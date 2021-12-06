@@ -1,11 +1,18 @@
 {
   "name": "server-search-cascader",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.5",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name server-search-cascader --dest lib packages/index.js"
   },
+  "main":"./lib/server-search-cascader.umd.min.js",
+  "files":["lib","package.json"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dshvv/server-search-cascader.git"
+  },
+  "homepage": "https://github.com/dshvv/server-search-cascader#readme",
   "dependencies": {
     "axios": "^0.24.0",
     "core-js": "^3.6.5",
@@ -15,8 +22,6 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
-    "less": "^3.0.4",
-    "less-loader": "^5.0.0"
+    "@vue/compiler-sfc": "^3.0.0"
   }
 }

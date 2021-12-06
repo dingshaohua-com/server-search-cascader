@@ -2,14 +2,13 @@
 ## 描述
 vue3版本的级联选择器，支持懒加载和服务端搜索   
 如果您用的是react，原理一样，看代码修改即可   
-
 The cascade selector of vue3 supports lazy loading and server-side search.
 If you use react, the principle is the same. Just look at the code modification
 
 ## 安装(install)
 
 ```
-yarn install server-search-cascader
+yarn add server-search-cascader
 ```
 
 ## 使用(use)
@@ -18,6 +17,8 @@ main.js
 
 ```javascript
 import ServerSearchCascader from "server-search-cascader";
+import 'server-search-cascader/lib/server-search-cascader.css'
+
 createApp(App).use(ServerSearchCascader).mount("#app");
 ```
 
