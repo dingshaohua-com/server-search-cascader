@@ -1,4 +1,5 @@
 module.exports = {
+    publicPath: '/server-search-cascader/',
     // 修改 src 目录 为 examples 目录
     pages: {
       index: {
